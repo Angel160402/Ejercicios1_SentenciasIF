@@ -32,7 +32,9 @@ public class Ejercicios1_SentenciasIF {
             System.out.println("El número menor es: " + num2);
 
         }
-
+       
+        System.out.println(" ");
+        
         //Ejercicio 2
         //2.- Lea dos números e indique cuál es el mayor y cuál es el menor de ambos.
         System.out.println("EJERCICIO 2");
@@ -50,6 +52,8 @@ public class Ejercicios1_SentenciasIF {
             System.out.println("El número menor es: " + nume2);
         }
 
+        System.out.println(" ");
+        
         //Ejercicio 3
         //3.- Lea dos números e indique cuál es el mayor, cuál es el menor y en su caso decir si son iguales.
         System.out.println("EJERCICIO 3");
@@ -70,6 +74,7 @@ public class Ejercicios1_SentenciasIF {
             System.out.println("Los números son iguales");
         }
 
+        System.out.println(" ");
         
         //Ejercicio 4
         // 4.- Escriba un programa que con base al año actual y lea un año cualquiera 
@@ -83,6 +88,9 @@ public class Ejercicios1_SentenciasIF {
 
         System.out.println("Desde " + añoant + " hasta " + añoact + " han pasado " + resta + " año");
 
+        
+        System.out.println(" ");
+        
         //Ejercicio 5
         //5.- En este reto deberás programar un código que solicite al usuario que introduzca un número,
         //lo asigne a una variable, compruebe si el número es positivo (mayor o igual que cero) en cuyo
@@ -103,10 +111,13 @@ public class Ejercicios1_SentenciasIF {
             System.out.println("El número es cero");
         }
 
+        
+        System.out.println(" ");
+        
         //Ejercico 6
         //6.- Compruebe si el número  tecleado tiene dos cifras (números comprendidos entre 10 y 99)
         //en cuyo caso imprimirá por la consola el mensaje "Tiene dos cifras", en caso contrario imprimirá el mensaje "Distinto de dos cifras". 
-        System.out.println("EJERCICIO6");
+        System.out.println("EJERCICIO 6");
         int numer;
         System.out.println("Ingrese un número: ");
         numer = teclado.nextInt();
