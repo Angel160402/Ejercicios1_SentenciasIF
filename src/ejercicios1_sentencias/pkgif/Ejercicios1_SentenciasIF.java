@@ -75,31 +75,32 @@ public class Ejercicios1_SentenciasIF {
         // 4.- Escriba un programa que con base al año actual y lea un año cualquiera 
         //y que escriba cuántos años han pasado desde ese año o cuántos años faltan para llegar a ese año
         
-        System.out.println("EJERCICIO4");
+        System.out.println("EJERCICIO 4");
         int añoact = 2021;
-        int añoant = 1899;
+        int añoant = 1976;
         int resta;
         resta = añoact - añoant;
 
-        System.out.println("4.Desde " + añoant + " hasta " + añoact + " han pasado " + resta + " año");
+        System.out.println("Desde " + añoant + " hasta " + añoact + " han pasado " + resta + " año");
 
         //Ejercicio 5
         //5.- En este reto deberás programar un código que solicite al usuario que introduzca un número,
         //lo asigne a una variable, compruebe si el número es positivo (mayor o igual que cero) en cuyo
         //caso imprimirá por la consola el mensaje "Es positivo", en caso contrario imprimirá el mensaje "Es negativo".
-        System.out.println("EJERCICIO5");
+        
+        System.out.println("EJERCICIO 5");
         Scanner teclado = new Scanner(System.in);
         int numero;
-        System.out.println("5.Ingrese un numero:");
+        System.out.println("Ingrese un número:");
         numero = teclado.nextInt();
         if (numero > 0 && numero != 0) {
-            System.out.println("5.El numero es positivo");
+            System.out.println("El número es positivo");
         }
         if (numero < 0 && numero != 0) {
-            System.out.println("5.El numero es negativo");
+            System.out.println("El número es negativo");
         }
         if (numero == 0) {
-            System.out.println("5.El numero es cero");
+            System.out.println("El número es cero");
         }
 
         //Ejercico 6
@@ -107,13 +108,13 @@ public class Ejercicios1_SentenciasIF {
         //en cuyo caso imprimirá por la consola el mensaje "Tiene dos cifras", en caso contrario imprimirá el mensaje "Distinto de dos cifras". 
         System.out.println("EJERCICIO6");
         int numer;
-        System.out.println("6.Ingrese un numero: ");
+        System.out.println("Ingrese un número: ");
         numer = teclado.nextInt();
         if (numer < 10 && numer > 0) {
-            System.out.println("6.El numero es distinto de dos cifra");
+            System.out.println("El número es distinto de dos cifra");
         }
         if (numer <= 99 && numer >= 10) {
-            System.out.println("6.El numero tiene dos cifras");
+            System.out.println("El número tiene dos cifras");
         }
 
     }
